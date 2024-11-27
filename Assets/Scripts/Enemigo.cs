@@ -1,11 +1,10 @@
 using UnityEngine;
 
-public class CollisionHandler : MonoBehaviour
+public class Enemigo : MonoBehaviour
 {
     [SerializeField] GameObject explosionPrefab;
-    private void OnTriggerEnter(Collider other)
+    private void OnParticleCollision(GameObject other)
     {
-        Debug.Log("Collided with: " + other.name);
         Instantiate(explosionPrefab, this.transform.position, Quaternion.identity);
         Destroy(this.gameObject);
     }
