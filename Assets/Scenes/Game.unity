@@ -1928,7 +1928,7 @@ GameObject:
   - component: {fileID: 1756337574}
   - component: {fileID: 1756337573}
   m_Layer: 5
-  m_Name: Pilot
+  m_Name: General
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2083,7 +2083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1844179086}
   m_Layer: 0
-  m_Name: Fleet Commander
+  m_Name: Fleet General
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
