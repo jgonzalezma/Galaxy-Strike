@@ -5,6 +5,7 @@ public class Enemigo : MonoBehaviour
     [SerializeField] GameObject explosionPrefab;
     [SerializeField] int vida = 4;
     [SerializeField] int scorePoint = 10;
+    [SerializeField] AudioClip enemyDestroyAudio;
     ScoreBoard scoreBoard;
 
     private void Start()
@@ -18,6 +19,7 @@ public class Enemigo : MonoBehaviour
         {
             Instantiate(explosionPrefab, this.transform.position, Quaternion.identity);
             scoreBoard.addScore(scorePoint);
+            AudioSource.PlayClipAtPoint(enemyDestroyAudio, Camera.main.transform.position, 5);
             Destroy(this.gameObject);
         }
     }
