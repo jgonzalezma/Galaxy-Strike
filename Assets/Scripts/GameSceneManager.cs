@@ -13,6 +13,7 @@ public class GameSceneManager : MonoBehaviour
     IEnumerator ResetGameSession()
     {
         yield return new WaitForSecondsRealtime(resetDelay);
-        SceneManager.LoadScene(0);
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex);
     }
 }
