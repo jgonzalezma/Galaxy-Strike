@@ -17,8 +17,8 @@ public class Enemigo : MonoBehaviour
         vida--;
         if (vida <= 0)
         {
-            Instantiate(explosionPrefab, this.transform.position, Quaternion.identity);
             scoreBoard.addScore(scorePoint);
+            Instantiate(explosionPrefab, this.transform.position, Quaternion.identity);
             AudioSource.PlayClipAtPoint(enemyDestroyAudio, Camera.main.transform.position, 5);
             Destroy(this.gameObject);
         }

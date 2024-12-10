@@ -72,23 +72,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 407874818823993422, guid: 14722ccb3cfa72443b91be7f9da91072, type: 3}
       propertyPath: m_Name
-      value: Enemigo5
+      value: Japoneses
       objectReference: {fileID: 0}
     - target: {fileID: 3247029409813678347, guid: 14722ccb3cfa72443b91be7f9da91072, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.34
+      value: 1.05
       objectReference: {fileID: 0}
     - target: {fileID: 3247029409813678347, guid: 14722ccb3cfa72443b91be7f9da91072, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.34
+      value: 1.05
       objectReference: {fileID: 0}
     - target: {fileID: 3247029409813678347, guid: 14722ccb3cfa72443b91be7f9da91072, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.34
+      value: 1.05
       objectReference: {fileID: 0}
     - target: {fileID: 3247029409813678347, guid: 14722ccb3cfa72443b91be7f9da91072, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 226.47011
+      value: 240.3
       objectReference: {fileID: 0}
     - target: {fileID: 3247029409813678347, guid: 14722ccb3cfa72443b91be7f9da91072, type: 3}
       propertyPath: m_LocalPosition.y
