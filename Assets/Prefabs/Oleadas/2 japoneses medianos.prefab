@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2878072968403004063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4002134846042838659}
+  m_Layer: 0
+  m_Name: 2 japoneses medianos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4002134846042838659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2878072968403004063}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.17353894, z: -0, w: 0.98482704}
+  m_LocalPosition: {x: 908.7264, y: 83.46, z: -493.0194}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1648587743585280633}
+  - {fileID: 6530501961018307303}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -19.987, z: 0}
+--- !u!1001 &2139320626312240052
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4002134846042838659}
+    m_Modifications:
+    - target: {fileID: 1434478683214704540, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: vida
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 178.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 641.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.003559828
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9999937
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180.408
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050096233216825366, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_Name
+      value: Japoneses (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+--- !u!4 &6530501961018307303 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+  m_PrefabInstance: {fileID: 2139320626312240052}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5904661089018940202
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4002134846042838659}
+    m_Modifications:
+    - target: {fileID: 1434478683214704540, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: vida
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 222.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 21.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 625.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.003559828
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9999937
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180.408
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050096233216825366, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+      propertyPath: m_Name
+      value: Japoneses
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+--- !u!4 &1648587743585280633 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5120984376934213971, guid: b60aab6a05d46df45aafa9b09c34978f, type: 3}
+  m_PrefabInstance: {fileID: 5904661089018940202}
+  m_PrefabAsset: {fileID: 0}
